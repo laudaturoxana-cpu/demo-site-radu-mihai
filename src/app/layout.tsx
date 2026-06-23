@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
+import { MobileCta } from '@/components/ui/MobileCta'
 import { BRAND_NAME, BRAND_TAGLINE, BRAND_URL } from '@/constants/brand'
 
 const inter = Inter({
@@ -54,8 +55,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ro" className={`${inter.variable} ${playfair.variable}`}>
       <body>
         <Header />
-        <main>{children}</main>
+        <main className="pb-mobile-cta md:pb-0">{children}</main>
         <Footer />
+        <MobileCta />
       </body>
     </html>
   )

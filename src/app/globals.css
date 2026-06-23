@@ -7,6 +7,7 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 
   body {
@@ -22,35 +23,55 @@
   }
 
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-brand-green;
+    @apply outline-2 outline-offset-2 outline-brand-green rounded-sm;
+  }
+
+  /* Tap targets pe mobil */
+  button, a {
+    -webkit-tap-highlight-color: transparent;
   }
 }
 
 @layer utilities {
   .section-padding {
-    @apply py-20 md:py-28;
+    @apply py-16 md:py-24 lg:py-28;
   }
 
   .container-max {
-    @apply max-w-container mx-auto px-5 md:px-8;
+    @apply max-w-container mx-auto px-4 sm:px-6 md:px-8;
   }
 
   .gold-line {
-    @apply block w-12 h-px bg-brand-gold;
+    @apply block w-10 h-px bg-brand-gold;
   }
 
-  .animate-fade-up {
-    animation: fadeUp 0.6s ease-out forwards;
+  /* Dot grid pattern */
+  .dot-bg {
+    background-image: radial-gradient(circle, rgba(45,106,79,0.10) 1px, transparent 1px);
+    background-size: 22px 22px;
   }
 
-  @keyframes fadeUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  /* Card hover lift */
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
   }
+  .card-hover:hover {
+    @apply -translate-y-1 shadow-elevated;
+  }
+
+  /* Gradient text */
+  .text-gradient-green {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #2D6A4F 0%, #1a5c40 100%);
+  }
+
+  /* Safe area for mobile CTA */
+  .pb-mobile-cta {
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  /* Scrollbar slim */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { @apply bg-brand-surface rounded-full; }
 }
