@@ -21,23 +21,23 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL(BRAND_URL),
   title: {
-    default: `${BRAND_NAME} — ${BRAND_TAGLINE}`,
+    default: `${BRAND_NAME}, ${BRAND_TAGLINE}`,
     template: `%s | ${BRAND_NAME}`,
   },
   description:
-    'Un punct unic de coordonare administrativă și executivă pentru antreprenori și IMM-uri. Organizăm, urmărim și ținem afacerea ta sub control — ca tu să te ocupi de ce contează.',
+    'Un punct unic de coordonare administrativă și executivă pentru antreprenori și IMM-uri. Organizăm, urmărim și ținem afacerea ta sub control, ca tu să te ocupi de ce contează.',
   openGraph: {
     type: 'website',
     locale: 'ro_RO',
     url: BRAND_URL,
     siteName: BRAND_NAME,
-    title: `${BRAND_NAME} — ${BRAND_TAGLINE}`,
+    title: `${BRAND_NAME}, ${BRAND_TAGLINE}`,
     description:
       'Infrastructură executivă externalizată pentru antreprenori. Un om real, coordonare reală, rezultate vizibile.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${BRAND_NAME} — ${BRAND_TAGLINE}`,
+    title: `${BRAND_NAME}, ${BRAND_TAGLINE}`,
     description:
       'Infrastructură executivă externalizată pentru antreprenori și IMM-uri.',
   },

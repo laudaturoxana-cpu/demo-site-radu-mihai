@@ -6,7 +6,7 @@ import { piloni } from '@/data/piloni'
 export const metadata: Metadata = {
   title: 'Cei 4 piloni',
   description:
-    'Liantul, Navigatorul, Administratorul Executiv și Managerul de Colaborare — cele patru roluri prin care coordonăm infrastructura executivă a afacerii tale.',
+    'Liantul, Navigatorul, Administratorul Executiv și Managerul de Colaborare, cele patru roluri prin care coordonăm infrastructura executivă a afacerii tale.',
 }
 
 export default function PiloniPage() {
@@ -19,7 +19,7 @@ export default function PiloniPage() {
             Patru roluri. Unul din ele e mereu cel de care ai nevoie acum.
           </h1>
           <p className="font-sans text-body-lg text-brand-muted mt-5">
-            Nu toate firmele au același blocaj. Uneori problema e că nimeni nu leagă entitățile. Alteori e că lipsește cineva care vede imaginea de ansamblu. Sau că administrativul pur și simplu nu e ținut sub control. Cei 4 piloni acoperă toate aceste nevoi — activat în proporțiile potrivite pentru situația ta.
+            Nu toate firmele au același blocaj. Uneori problema e că nimeni nu leagă entitățile. Alteori e că lipsește cineva care vede imaginea de ansamblu. Sau că administrativul pur și simplu nu e ținut sub control. Cei 4 piloni acoperă toate aceste nevoi, activat în proporțiile potrivite pentru situația ta.
           </p>
         </div>
       </section>
@@ -76,7 +76,7 @@ export default function PiloniPage() {
             În funcție de pachetul ales și de nevoile specifice ale firmei tale, activăm pilonii și ponderea lor. Un client Start are nevoie poate de 70% Administrator Executiv și 30% Liant. Un client Executive lucrează cu toate cele 4 în echilibru.
           </p>
           <p className="font-sans text-[15px] text-white/60 leading-relaxed">
-            Cum arată în cazul tău specific — aflăm în diagnoză.
+            Cum arată în cazul tău specific, aflăm în diagnoză.
           </p>
         </div>
       </section>

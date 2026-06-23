@@ -5,17 +5,17 @@ import { SectionLabel } from '@/components/ui/SectionLabel'
 export const metadata: Metadata = {
   title: 'Pentru cine',
   description:
-    'Profilul clientului potrivit și situațiile în care colaborarea are sens — sau nu.',
+    'Profilul clientului potrivit și situațiile în care colaborarea are sens, sau nu.',
 }
 
 const pentruCine = [
   {
     titlu: 'Conduci o firmă cu 5–30 de angajați',
-    corp: 'Ai depășit faza de start-up, există procese, există o echipă — dar tu tot mai ești cel care rezolvă detaliile administrative. Nu mai e scalabil.',
+    corp: 'Ai depășit faza de start-up, există procese, există o echipă, dar tu tot mai ești cel care rezolvă detaliile administrative. Nu mai e scalabil.',
   },
   {
     titlu: 'Petreci prea mult timp în operațional',
-    corp: 'Dacă mai mult de 2–3 ore pe zi merg pe e-mail, urmăriri, coordonare și tot ce „trebuie rezolvat" — e clar că ceva trebuie schimbat.',
+    corp: 'Dacă mai mult de 2–3 ore pe zi merg pe e-mail, urmăriri, coordonare și tot ce „trebuie rezolvat", e clar că ceva trebuie schimbat.',
   },
   {
     titlu: 'Ai crescut rapid și nu ai ținut pasul intern',
@@ -27,7 +27,7 @@ const pentruCine = [
   },
   {
     titlu: 'Ești obosit să repeți contextul',
-    corp: 'Ai mai mulți oameni care lucrează la lucruri diferite și tu ești cel care face legătura între ei. Asta nu e o problemă de oameni — e o problemă de structură.',
+    corp: 'Ai mai mulți oameni care lucrează la lucruri diferite și tu ești cel care face legătura între ei. Asta nu e o problemă de oameni, e o problemă de structură.',
   },
   {
     titlu: 'Vrei claritate, nu mai multă informație',
@@ -42,11 +42,11 @@ const nuPentruCine = [
   },
   {
     titlu: 'Ai nevoie de cineva full-time, integrat complet',
-    corp: 'Dacă ai nevoie de un om prezent zilnic în birou, parte din cultura echipei, implicat în toate — atunci recrutarea e varianta potrivită. Nu noi.',
+    corp: 'Dacă ai nevoie de un om prezent zilnic în birou, parte din cultura echipei, implicat în toate, atunci recrutarea e varianta potrivită. Nu noi.',
   },
   {
     titlu: 'Ești în faza pre-procese',
-    corp: 'Dacă încă nu există nimic de organizat — nicio echipă, niciun flux de lucru, nicio activitate repetitivă — nu avem ce coordona. Venim după ce există ceva de pus în ordine.',
+    corp: 'Dacă încă nu există nimic de organizat, nicio echipă, niciun flux de lucru, nicio activitate repetitivă, nu avem ce coordona. Venim după ce există ceva de pus în ordine.',
   },
   {
     titlu: 'Preferi să controlezi personal fiecare detaliu',
@@ -64,7 +64,7 @@ export default function PentruCinePage() {
             Nu suntem pentru toată lumea. Și e bine să știm asta din start.
           </h1>
           <p className="font-sans text-body-lg text-brand-muted mt-5">
-            Un parteneriat care nu se potrivește e o pierdere pentru amândoi. Suntem direct cu privire la ce funcționează și ce nu — tocmai ca să nu pierdem timp cu ceva care nu are sens.
+            Un parteneriat care nu se potrivește e o pierdere pentru amândoi. Suntem direct cu privire la ce funcționează și ce nu, tocmai ca să nu pierdem timp cu ceva care nu are sens.
           </p>
         </div>
       </section>
@@ -121,7 +121,7 @@ export default function PentruCinePage() {
         <div className="container-max max-w-3xl">
           <p className="font-serif text-brand-gold text-[48px] leading-none mb-4 opacity-60">&ldquo;</p>
           <blockquote className="font-serif text-h2 text-white leading-snug italic mb-6">
-            [testimonial real — citat specific de la un client care se potrivește profilului]
+            [testimonial real, citat specific de la un client care se potrivește profilului]
           </blockquote>
           <p className="font-sans text-[13px] text-white/40 tracking-wide uppercase">
             [Prenume Nume] · [Funcție], [Firma] ·{' '}
@@ -138,7 +138,7 @@ export default function PentruCinePage() {
             Dacă te-ai regăsit mai sus, diagnosticul e gratuit.
           </h2>
           <p className="font-sans text-body-lg text-brand-muted mb-4">
-            30 de minute în care îți pun câteva întrebări directe. La final îți spun sincer dacă și cum putem ajuta — sau dacă nu suntem varianta potrivită pentru tine acum.
+            30 de minute în care îți pun câteva întrebări directe. La final îți spun sincer dacă și cum putem ajuta, sau dacă nu suntem varianta potrivită pentru tine acum.
           </p>
           <p className="font-sans text-[15px] text-brand-muted mb-8">
             Fără presiune, fără pitch. O conversație.

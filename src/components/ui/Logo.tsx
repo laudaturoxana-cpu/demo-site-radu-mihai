@@ -12,7 +12,7 @@ export function Logo({ variant = 'dark', className = '' }: LogoProps) {
   const mutedColor = variant === 'light' ? 'rgba(250,249,247,0.7)' : '#6B6560'
 
   return (
-    <Link href="/" aria-label={`${BRAND_NAME} — Acasă`} className={`inline-flex items-center gap-3 ${className}`}>
+    <Link href="/" aria-label={`${BRAND_NAME}, Acasă`} className={`inline-flex items-center gap-3 ${className}`}>
       {/* Lettermark */}
       <svg width="28" height="36" viewBox="0 0 28 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <rect x="0" y="0" width="3" height="36" fill={greenColor} />

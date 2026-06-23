@@ -8,9 +8,9 @@ import { pachete } from '@/data/pachete'
 import { BRAND_NAME } from '@/constants/brand'
 
 export const metadata: Metadata = {
-  title: `${BRAND_NAME} — Infrastructură executivă externalizată pentru antreprenori`,
+  title: `${BRAND_NAME}, Infrastructură executivă externalizată pentru antreprenori`,
   description:
-    'Nu un secretar, nu un consultant. Un om care coordonează, organizează și ține totul la locul lui — ca tu să te ocupi de ce contează cu adevărat.',
+    'Nu un secretar, nu un consultant. Un om care coordonează, organizează și ține totul la locul lui, ca tu să te ocupi de ce contează cu adevărat.',
 }
 
 const probleme = [
@@ -43,7 +43,7 @@ const diferentiatori = [
   {
     nr: '03',
     titlu: 'Prezență acolo unde e nevoie',
-    descriere: 'Nu exclusiv remote. La pachetele Business și Executive, suntem și fizic — pentru că unele lucruri nu se rezolvă pe Zoom.',
+    descriere: 'Nu exclusiv remote. La pachetele Business și Executive, suntem și fizic, pentru că unele lucruri nu se rezolvă pe Zoom.',
   },
   {
     nr: '04',
@@ -74,7 +74,7 @@ export default function HomePage() {
 
         <div className="container-max relative w-full py-24 md:py-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left — copy */}
+            {/* Left, copy */}
             <div>
               <Animate>
                 <div className="inline-flex items-center gap-2.5 bg-brand-green-light border border-brand-green/20 rounded-full px-4 py-2 mb-7">
@@ -94,7 +94,7 @@ export default function HomePage() {
 
               <Animate delay={160}>
                 <p className="font-sans text-body-lg text-brand-muted mt-6 max-w-[520px]">
-                  Nu un secretar, nu un consultant. Un om care coordonează furnizori, urmărește termene, organizează fluxul de lucru și e prezent acolo unde e nevoie — ca tu să te gândești la ce contează.
+                  Nu un secretar, nu un consultant. Un om care coordonează furnizori, urmărește termene, organizează fluxul de lucru și e prezent acolo unde e nevoie, ca tu să te gândești la ce contează.
                 </p>
               </Animate>
 
@@ -113,7 +113,7 @@ export default function HomePage() {
               </Animate>
             </div>
 
-            {/* Right — diagram vizual */}
+            {/* Right, diagram vizual */}
             <Animate delay={200} direction="left" className="hidden lg:flex items-center justify-center">
               <div className="relative w-full max-w-md">
                 {/* Card central */}
@@ -151,7 +151,7 @@ export default function HomePage() {
 
                 {/* Floating badge TU */}
                 <div className="absolute -top-4 -right-4 bg-brand-gold text-white font-serif font-bold text-[12px] px-4 py-2 rounded-full shadow-card tracking-wide uppercase">
-                  Tu — liber
+                  Tu, liber
                 </div>
 
                 {/* Floating mini card bottom-left */}
@@ -204,7 +204,7 @@ export default function HomePage() {
             </Animate>
             <Animate delay={140}>
               <p className="font-sans text-body-lg text-brand-muted mt-4">
-                Nu e lipsă de voință. E lipsă de infrastructură. Cineva trebuie să se ocupe de detaliile astea — și cel mai scump mod e să te ocupi tu.
+                Nu e lipsă de voință. E lipsă de infrastructură. Cineva trebuie să se ocupe de detaliile astea, și cel mai scump mod e să te ocupi tu.
               </p>
             </Animate>
           </div>
@@ -212,10 +212,8 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {probleme.map((p, i) => (
               <Animate key={i} delay={i * 60}>
-                <div className="group flex items-start gap-4 bg-white rounded-card p-5 shadow-subtle border border-black/[0.05] card-hover h-full">
-                  <span className="font-serif text-brand-gold/70 font-bold text-[22px] leading-none mt-0.5 shrink-0 group-hover:text-brand-gold transition-colors">
-                    —
-                  </span>
+                <div className="group flex items-start gap-3 bg-white rounded-card p-5 shadow-subtle border border-black/[0.05] card-hover h-full">
+                  <span className="w-1.5 h-1.5 rounded-full bg-brand-gold/60 group-hover:bg-brand-gold transition-colors shrink-0 mt-2" />
                   <span className="font-sans text-[14px] text-brand-graphite leading-relaxed">{p}</span>
                 </div>
               </Animate>
@@ -352,7 +350,7 @@ export default function HomePage() {
           </div>
 
           <div className="relative">
-            {/* Connecting line — desktop only */}
+            {/* Connecting line, desktop only */}
             <div className="hidden md:block absolute top-7 left-[calc(16.6%+16px)] right-[calc(16.6%+16px)] h-px bg-gradient-to-r from-brand-gold/30 via-brand-gold/60 to-brand-gold/30" aria-hidden="true" />
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6">
@@ -361,7 +359,7 @@ export default function HomePage() {
                   nr: '01',
                   titlu: 'Diagnosticul',
                   sub: '30 min · gratuit',
-                  body: 'O conversație directă — nu un pitch. Îți pun câteva întrebări, ascult și îți spun sincer dacă și cum putem ajuta.',
+                  body: 'O conversație directă, nu un pitch. Îți pun câteva întrebări, ascult și îți spun sincer dacă și cum putem ajuta.',
                 },
                 {
                   nr: '02',
@@ -373,7 +371,7 @@ export default function HomePage() {
                   nr: '03',
                   titlu: 'Controlul',
                   sub: 'Continuu, cu raport',
-                  body: 'Operăm autonom în ariile agreate, cu un raport clar la finalul fiecărei luni. Nu aștepți să întrebi — îți spunem noi.',
+                  body: 'Operăm autonom în ariile agreate, cu un raport clar la finalul fiecărei luni. Nu aștepți să întrebi, îți spunem noi.',
                 },
               ].map((step, i) => (
                 <Animate key={step.nr} delay={i * 120}>
@@ -558,7 +556,7 @@ export default function HomePage() {
             <div className="text-center">
               <span className="font-serif text-brand-gold text-[72px] leading-none block -mb-4 opacity-40">&ldquo;</span>
               <blockquote className="font-serif text-h2 text-white leading-snug italic">
-                [testimonial real — citat din experiența unui client, în propriile lui cuvinte]
+                [testimonial real, citat din experiența unui client, în propriile lui cuvinte]
               </blockquote>
               <div className="mt-8 flex flex-col items-center gap-2">
                 <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
@@ -586,7 +584,7 @@ export default function HomePage() {
           </Animate>
           <Animate delay={140}>
             <p className="font-sans text-body-lg text-brand-muted mt-5 max-w-prose mx-auto">
-              Diagnosticul e gratuit și fără angajament. Îți pun câteva întrebări, ascult, și îți spun sincer — nici mai mult, nici mai puțin — dacă și cum putem ajuta.
+              Diagnosticul e gratuit și fără angajament. Îți pun câteva întrebări, ascult, și îți spun sincer, nici mai mult, nici mai puțin, dacă și cum putem ajuta.
             </p>
           </Animate>
           <Animate delay={200}>
@@ -610,7 +608,7 @@ export default function HomePage() {
             '@context': 'https://schema.org',
             '@type': 'ProfessionalService',
             name: BRAND_NAME,
-            description: 'Infrastructură executivă externalizată — coordonare, organizare și control administrativ pentru antreprenori și IMM-uri.',
+            description: 'Infrastructură executivă externalizată, coordonare, organizare și control administrativ pentru antreprenori și IMM-uri.',
             url: 'https://nexus-executiv.ro',
             areaServed: { '@type': 'Country', name: 'Romania' },
             serviceType: 'Business Administration Outsourcing',

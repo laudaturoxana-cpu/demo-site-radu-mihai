@@ -6,13 +6,13 @@ import { pachete } from '@/data/pachete'
 export const metadata: Metadata = {
   title: 'Pachete',
   description:
-    'Start, Business, Executive — trei niveluri de infrastructură executivă externalizată. Alege ce ți se potrivește.',
+    'Start, Business, Executive, trei niveluri de infrastructură executivă externalizată. Alege ce ți se potrivește.',
 }
 
 const comparatie = [
   { label: 'Ore de suport lunar', start: '~20h', business: '~40h', executive: 'Nelimitat (în scop)' },
   { label: 'Arii acoperite', start: '3', business: '6', executive: 'Toate 10' },
-  { label: 'Prezență fizică', start: '—', business: 'Opțional', executive: 'Da' },
+  { label: 'Prezență fizică', start: 'Nu', business: 'Opțional', executive: 'Da' },
   { label: 'Raport lunar', start: 'Rezumat scurt', business: 'Detaliat', executive: 'Săptămânal + lunar' },
   { label: 'Timp de răspuns', start: '24h', business: '4h', executive: '2h' },
   { label: 'Onboarding', start: '1 săptămână', business: '2 săptămâni', executive: '2–3 săptămâni' },
@@ -29,7 +29,7 @@ export default function PachetePage() {
             Nu plătești pentru ce nu ai nevoie.
           </h1>
           <p className="font-sans text-body-lg text-brand-muted mt-5">
-            Trei niveluri de colaborare, gândite pentru trei stadii diferite ale aceleași probleme. Diagnosticul ne ajută să stabilim de unde pornim — și de acolo, scalăm în funcție de nevoie.
+            Trei niveluri de colaborare, gândite pentru trei stadii diferite ale aceleași probleme. Diagnosticul ne ajută să stabilim de unde pornim, și de acolo, scalăm în funcție de nevoie.
           </p>
         </div>
       </section>
@@ -183,15 +183,15 @@ export default function PachetePage() {
             {[
               {
                 q: 'Pot schimba pachetul după ce am început?',
-                a: 'Da. Scala în sus oricând — scala în jos cu 30 de zile preaviz. Nu există penalități dacă nevoile tale s-au schimbat.',
+                a: 'Da. Scala în sus oricând, scala în jos cu 30 de zile preaviz. Nu există penalități dacă nevoile tale s-au schimbat.',
               },
               {
                 q: 'Ce înseamnă „ore nelimitate" la Executive?',
-                a: 'Înseamnă că nu numărăm orele pentru activitățile din scop. Există un scop de intervenție agreat — în acel scop, lucrăm fără contor de ore.',
+                a: 'Înseamnă că nu numărăm orele pentru activitățile din scop. Există un scop de intervenție agreat, în acel scop, lucrăm fără contor de ore.',
               },
               {
                 q: 'Cum e stabilit prețul?',
-                a: 'Prețul e calculat în funcție de volum și complexitate — ariile acoperite, dimensiunea firmei, fluxul de lucru. Îl stabilim după diagnoză, nu dintr-un catalog fix.',
+                a: 'Prețul e calculat în funcție de volum și complexitate, ariile acoperite, dimensiunea firmei, fluxul de lucru. Îl stabilim după diagnoză, nu dintr-un catalog fix.',
               },
             ].map((item) => (
               <div key={item.q} className="bg-white rounded-card p-6 shadow-subtle border border-black/5">
@@ -207,7 +207,7 @@ export default function PachetePage() {
         <div className="container-max text-center max-w-2xl">
           <h2 className="font-serif text-h2 text-brand-graphite mb-5">Nu ești sigur cu ce pachet?</h2>
           <p className="font-sans text-body-lg text-brand-muted mb-8">
-            Nu trebuie să decizi acum. Diagnosticul e primul pas — și după el e clar care variantă are sens.
+            Nu trebuie să decizi acum. Diagnosticul e primul pas, și după el e clar care variantă are sens.
           </p>
           <Button href="/contact" size="lg">Cere o diagnoză gratuită</Button>
         </div>

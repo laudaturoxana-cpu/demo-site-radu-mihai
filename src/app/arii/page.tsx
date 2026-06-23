@@ -22,7 +22,7 @@ export default function AriiPage() {
             Nu există un pachet standard care funcționează la fel pentru orice firmă. Identificăm împreună care arii au cel mai mare impact în situația ta și le activăm în ordinea potrivită. Restul pot veni mai târziu, dacă e nevoie.
           </p>
           <p className="font-sans text-sm text-brand-muted/60 mt-3 italic">
-            ⚠️ Exemplele de mai jos sunt reprezentative — sunt adaptate și completate în funcție de specificul fiecărui client.
+            ⚠️ Exemplele de mai jos sunt reprezentative, sunt adaptate și completate în funcție de specificul fiecărui client.
           </p>
         </div>
       </section>

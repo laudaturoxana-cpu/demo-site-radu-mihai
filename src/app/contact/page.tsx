@@ -48,7 +48,7 @@ export default function ContactPage() {
       setErrors(erori)
       return
     }
-    // Demo — fără backend real
+    // Demo, fără backend real
     setSubmitted(true)
   }
 
@@ -91,7 +91,7 @@ export default function ContactPage() {
             30 de minute. Gratuit. Fără angajament.
           </h1>
           <p className="font-sans text-body-lg text-brand-muted mt-5">
-            Completează formularul de mai jos și te contactăm în maximum 24 de ore pentru a programa convorbirea. Nu e o prezentare comercială — e o conversație sinceră despre situația ta.
+            Completează formularul de mai jos și te contactăm în maximum 24 de ore pentru a programa convorbirea. Nu e o prezentare comercială, e o conversație sinceră despre situația ta.
           </p>
         </div>
       </section>
@@ -207,7 +207,7 @@ export default function ContactPage() {
                   {[
                     { nr: '1', text: 'Primești confirmare de primire în câteva ore.' },
                     { nr: '2', text: 'Te contactăm în 24h pentru a stabili data convorbirii.' },
-                    { nr: '3', text: '30 de minute de diagnoză — online sau telefonic.' },
+                    { nr: '3', text: '30 de minute de diagnoză, online sau telefonic.' },
                     { nr: '4', text: 'Îți spunem sincer ce am face și dacă are sens.' },
                   ].map((step) => (
                     <li key={step.nr} className="flex items-start gap-3">
@@ -233,7 +233,7 @@ export default function ContactPage() {
                   </a>
                 </p>
                 <p className="font-sans text-[12px] text-brand-muted mt-3 italic">
-                  ⚠️ Contact placeholder demo — actualizează cu datele reale.
+                  ⚠️ Contact placeholder demo, actualizează cu datele reale.
                 </p>
               </div>
             </div>

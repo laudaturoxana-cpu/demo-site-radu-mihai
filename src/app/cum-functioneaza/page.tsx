@@ -14,7 +14,7 @@ const saptamani = [
     titlu: 'Diagnosticul',
     culoare: 'border-brand-gold',
     pași: [
-      'Apel de 30 minute — gratuit, fără angajament',
+      'Apel de 30 minute, gratuit, fără angajament',
       'Înțelegem ce ocupă cel mai mult timp și ce scapă cel mai des',
       'Identificăm ariile unde intervenția are cel mai mare impact',
       'Îți spunem sincer dacă și cum putem ajuta',
@@ -38,17 +38,17 @@ const saptamani = [
     pași: [
       'Preluăm responsabilitatea ariilor agreate, cu tine în buclă',
       'Primești acces la sistemul nostru de urmărire și raportare',
-      'Rezolvăm primele probleme reale — nu test-drive, ci execuție',
+      'Rezolvăm primele probleme reale, nu test-drive, ci execuție',
       'Ajustăm în timp real ce e nevoie pe baza feedback-ului tău',
     ],
   },
   {
-    interval: 'Luna 1 — final',
+    interval: 'Luna 1, final',
     titlu: 'Raport și calibrare',
     culoare: 'border-brand-gold',
     pași: [
       'Raport complet: ce am rezolvat, ce e în curs, ce necesită atenția ta',
-      'Ședință de calibrare — ajustăm ariile și volumul de lucru',
+      'Ședință de calibrare, ajustăm ariile și volumul de lucru',
       'Stabilim ritmul de lucru pentru lunile următoare',
       'De la luna 2: funcționare autonomă cu raportare periodică',
     ],
@@ -119,7 +119,7 @@ export default function CumFunctioneazaPage() {
                 Modelul nostru are un singur principiu central: <strong className="text-brand-graphite">un singur interlocutor</strong> care știe totul. Nu două persoane pentru două arii. Nu un e-mail chain cu cinci oameni în copie. Un om care știe ce vrei, ce ai nevoie și ce se întâmplă.
               </p>
               <p className="font-sans text-[15px] text-brand-muted leading-relaxed mb-4">
-                Ăsta e interlocutorul tău. El coordonează tot ce e în spate — furnizori, documente, comunicare, termene — și te raportează periodic ce e de știut.
+                Ăsta e interlocutorul tău. El coordonează tot ce e în spate, furnizori, documente, comunicare, termene, și te raportează periodic ce e de știut.
               </p>
               <p className="font-sans text-[15px] text-brand-muted leading-relaxed">
                 Tu comunici cu un singur om. El se ocupă de restul.
@@ -130,7 +130,7 @@ export default function CumFunctioneazaPage() {
               {[
                 {
                   titlu: 'Cum comunicăm',
-                  corp: 'Canalul preferat de tine — email, WhatsApp, telefon. Noi ne adaptăm la ce funcționează în firma ta, nu invers.',
+                  corp: 'Canalul preferat de tine, email, WhatsApp, telefon. Noi ne adaptăm la ce funcționează în firma ta, nu invers.',
                 },
                 {
                   titlu: 'Timp de răspuns',
@@ -160,7 +160,7 @@ export default function CumFunctioneazaPage() {
         <div className="container-max max-w-3xl">
           <h2 className="font-serif text-h2 text-white mb-6">Delegarea nu e abandon. E știință.</h2>
           <p className="font-sans text-body-lg text-white/70 leading-relaxed mb-5">
-            Mulți antreprenori se tem că dacă deleagă pierd controlul. Exact invers. Cu infrastructura potrivită, ai mai mult control decât înainte — pentru că totul e urmărit, documentat și raportat.
+            Mulți antreprenori se tem că dacă deleagă pierd controlul. Exact invers. Cu infrastructura potrivită, ai mai mult control decât înainte, pentru că totul e urmărit, documentat și raportat.
           </p>
           <p className="font-sans text-[15px] text-white/60 leading-relaxed mb-5">
             Controlul nu înseamnă că faci tu fiecare lucru. Înseamnă că știi exact ce se întâmplă și că ai pe cineva care răspunde dacă ceva nu merge.

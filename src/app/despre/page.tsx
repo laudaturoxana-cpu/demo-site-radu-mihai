@@ -35,7 +35,7 @@ export default function DesprePage() {
                 Există un gol între ce ar trebui să facă un antreprenor și ce face în realitate.
               </h2>
               <p className="font-sans text-[15px] text-brand-muted leading-relaxed mb-4">
-                Antreprenorii cu care am lucrat nu duc lipsă de viziune sau determinare. Duc lipsă de ordine în spate. Cineva trebuie să se ocupe de ce se întâmplă între ședințe — și, de obicei, acel cineva e tot antreprenorul.
+                Antreprenorii cu care am lucrat nu duc lipsă de viziune sau determinare. Duc lipsă de ordine în spate. Cineva trebuie să se ocupe de ce se întâmplă între ședințe, și, de obicei, acel cineva e tot antreprenorul.
               </p>
               <p className="font-sans text-[15px] text-brand-muted leading-relaxed mb-4">
                 Un office manager intern ar rezolva problema, dar costă și necesită timp de integrare. Un asistent virtual execută ce i se dă, dar nu gândește ce trebuie făcut. Un consultant dă recomandări, dar nu le urmărește.
@@ -49,7 +49,7 @@ export default function DesprePage() {
               {[
                 {
                   titlu: 'Nu suntem secretariat',
-                  corp: 'Secretariatul răspunde la telefon și programează întâlniri. Noi gândim ce trebuie organizat, identificăm blocajele și propunem soluții — fără să așteptăm instrucțiuni pentru fiecare detaliu.',
+                  corp: 'Secretariatul răspunde la telefon și programează întâlniri. Noi gândim ce trebuie organizat, identificăm blocajele și propunem soluții, fără să așteptăm instrucțiuni pentru fiecare detaliu.',
                 },
                 {
                   titlu: 'Nu suntem asistent virtual',
@@ -57,7 +57,7 @@ export default function DesprePage() {
                 },
                 {
                   titlu: 'Nu suntem consultanți',
-                  corp: 'Consultanții analizează și recomandă. Noi executăm și urmărim. Propunem, dar și implementăm. Dacă ceva nu funcționează, nu scriem un raport — rezolvăm.',
+                  corp: 'Consultanții analizează și recomandă. Noi executăm și urmărim. Propunem, dar și implementăm. Dacă ceva nu funcționează, nu scriem un raport, rezolvăm.',
                 },
               ].map((item) => (
                 <div key={item.titlu} className="bg-white rounded-card p-6 shadow-card border border-black/5">
@@ -108,7 +108,7 @@ export default function DesprePage() {
                 Nu exclusiv remote. Acolo unde e nevoie.
               </h2>
               <p className="font-sans text-[15px] text-brand-muted leading-relaxed mb-4">
-                Unele lucruri nu se rezolvă pe Zoom. O ședință cu un furnizor dificil, un audit de documente fizice, o zi de training cu echipa pe un nou sistem de lucru — pentru astea, prezența contează.
+                Unele lucruri nu se rezolvă pe Zoom. O ședință cu un furnizor dificil, un audit de documente fizice, o zi de training cu echipa pe un nou sistem de lucru, pentru astea, prezența contează.
               </p>
               <p className="font-sans text-[15px] text-brand-muted leading-relaxed mb-4">
                 Pachetele Business și Executive includ prezență fizică acolo unde situația o cere. Nu în fiecare zi, dar când e necesar.
@@ -125,7 +125,7 @@ export default function DesprePage() {
                   <span className="font-serif text-brand-green font-bold text-xl">NE</span>
                 </div>
                 <p className="font-sans text-[12px] text-brand-muted tracking-[0.15em] uppercase">
-                  [foto reală — persoana din echipă]
+                  [foto reală, persoana din echipă]
                 </p>
               </div>
             </div>

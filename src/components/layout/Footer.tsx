@@ -94,7 +94,7 @@ export function Footer() {
           </p>
           {/* ⚠️ DEMO */}
           <p className="font-sans text-[11px] text-white/20 italic">
-            ⚠️ &quot;{BRAND_NAME}&quot; este un nume provizoriu de demo — va fi înlocuit cu numele final al brandului.
+            ⚠️ &quot;{BRAND_NAME}&quot; este un nume provizoriu de demo, va fi înlocuit cu numele final al brandului.
           </p>
         </div>
       </div>

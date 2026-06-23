@@ -49,7 +49,7 @@ export default function FAQPage() {
             Întrebările pe care le ai, dar poate nu le-ai pus încă.
           </h1>
           <p className="font-sans text-body-lg text-brand-muted mt-5">
-            Am adunat cele mai frecvente întrebări și obiecții pe care le primim. Dacă ceva nu e răspuns aici — trimite-ne un mesaj sau cere direct diagnosticul, că o să ajungem la ele.
+            Am adunat cele mai frecvente întrebări și obiecții pe care le primim. Dacă ceva nu e răspuns aici, trimite-ne un mesaj sau cere direct diagnosticul, că o să ajungem la ele.
           </p>
         </div>
       </section>
