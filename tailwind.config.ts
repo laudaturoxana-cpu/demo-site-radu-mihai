@@ -10,11 +10,12 @@ const config: Config = {
           graphite:     '#1C1C1C',
           green:        '#2D6A4F',
           'green-dark': '#1E4E3A',
+          'green-mid':  '#4A8B6F',
           'green-light':'#EAF2EE',
-          gold:         '#C9A84C',
-          surface:      '#F0EDEA',
+          gold:         '#A87B3E',
+          surface:      '#E6DFD6',
           muted:        '#6B6560',
-          dark:         '#141414',
+          dark:         '#191510',
         },
       },
       fontFamily: {
@@ -51,7 +52,7 @@ const config: Config = {
       backgroundImage: {
         'dot-grid': "radial-gradient(circle, rgba(45,106,79,0.12) 1px, transparent 1px)",
         'green-gradient': 'linear-gradient(135deg, #2D6A4F 0%, #1E4E3A 100%)',
-        'cream-fade': 'linear-gradient(180deg, #FAF9F7 0%, #F0EDEA 100%)',
+        'cream-fade': 'linear-gradient(180deg, #FAF9F7 0%, #E6DFD6 100%)',
       },
       backgroundSize: {
         'dot': '24px 24px',
